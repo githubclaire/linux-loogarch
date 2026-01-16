@@ -48,8 +48,8 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/linux-dbg-arm:latest
-          #platforms: linux/arm64 
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/linux-dbg-loogarch:latest
+          #platforms: linux/loongarch64 
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
