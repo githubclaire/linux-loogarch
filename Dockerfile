@@ -1,4 +1,4 @@
-FROM --platform=linux/loongarch64 ubuntu:20.04
+FROM --platform=linux/loongarch64 ubuntu:18.04
 
 # Package `tzdata` should be installed to make the environment variable `TZ` work.
 # Setting DEBIAN_FRONTEND=noninteractive suppresses the interactive timezone prompt.
