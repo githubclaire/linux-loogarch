@@ -9,6 +9,7 @@ RUN apt-get update\
         && apt-get install -y --no-install-recommends \
                 make tzdata \
                 zlib1g-dev \
+                libkmod-dev \
                 libudev1 libudev-dev \
                 libpci-dev \
                 libpciaccess-dev \
